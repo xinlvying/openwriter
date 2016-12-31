@@ -18,17 +18,18 @@
 		<p class="blog-description">{{bio}}</p>
 
 		<ul class="homepage-links">
+			<li><a href="{{@blog.url}}">Home</a></li>
 			<li><a href="#home-latest-post" id="blog">My Posts</a></li>
 
-			{{#if location}}
+			<!-- {{#if location}}
 			<li><a href="https://www.google.com/maps?hl=en&q={{location}}" target="_blank">{{location}}</a></li>
-			{{/if}}
-
+			{{/if}} -->
+			<li><a href="#">More</a></li>
 			{{#if website}}
-			<li><a href="{{website}}" target="_blank">Website</a></li>
+			<li><a href="{{website}}" target="_blank">Blog on Github</a></li>
 			{{/if}}
 
-			<li><a href="{{@blog.url}}">Home</a></li>
+
 		</ul>
 	</div>
 
