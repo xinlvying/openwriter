@@ -19,7 +19,7 @@
 		<h3 class="post-meta">by {{author}}</h3>
 
 		{{#if tags}}
-		<div class="tags">
+		<div class="post_tags">
 			<i class="fa fa-tags" aria-hidden="true"> {{tags}}</i>
 		</div>
 		{{/if}}
@@ -29,11 +29,7 @@
 
 <main>
 	<div class="post-content">{{content}}</div>
-	<div class="back-to-top">
-		<a class="fa-2x" href="#">
-	<i class="fa fa-angle-double-up" aria-hidden="true"></i>
-</a>
-</div>
+	{{> back-to-top}}
 	<div class="post-footer">
 
 		<div class="share">
