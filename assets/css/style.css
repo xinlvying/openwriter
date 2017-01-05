@@ -6,3 +6,4 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .social-icon .share .fa{width: 40px;height: 40px;border-radius:50%;text-align:center;padding:5px;margin:1rem 0 0 1rem;transition:background-color 0.6s;display: inline-block;}
 i:hover,i:focus{background-color: #eee;}
 .excerpt_tags{color:#9E9E9E}
+.back-to-top .fa{width: 40px;height: 40px;border-radius:50%;text-align:center;padding:5px;margin:1rem 0 0 1rem;transition:background-color 0.6s;display: inline-block;float: right;}

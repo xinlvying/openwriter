@@ -16,11 +16,11 @@
 	<div class="title-container">
 		<h1 class="post-title">{{title}}</h1>
 		<h3 class="post-meta">Posted on <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="D MMMM YYYY"}}</time></h3>
-		<h3 by {{author}}</h3>
+		<h3 class="post-meta">by {{author}}</h3>
 
 		{{#if tags}}
 		<div class="tags">
-			{{tags}}
+			<i class="fa fa-tags" aria-hidden="true"> {{tags}}</i>
 		</div>
 		{{/if}}
 
@@ -29,7 +29,9 @@
 
 <main>
 	<div class="post-content">{{content}}</div>
-
+	<div class="back-to-top">
+	<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+</div>
 	<div class="post-footer">
 
 		<div class="share">
