@@ -8,5 +8,7 @@ i:hover,i:focus{background-color: #eee;}
 .excerpt_tags a{color:#9E9E9E;font-family: monospace;}
 .excerpt_tags i a:hover,.excerpt_tags i a:focus{color:#505050;}
 .back-to-top .fa{width: 30px;height: 30px;border-radius:50%;text-align:center;transition:background-color 0.6s;display: inline-block;float: right;}
-a.next_post,i.next_post{display: block;float: left;text-align: right;}
-a.prev_post,i.prev_post{display: block;float: right;text-align: left;}
+a.next_post,i.next_post{float: left;color: #9e9e9e}
+a.prev_post,i.prev_post{float: right;color: #9e9e9e}
+a.next_post,i.next_post:hover{color: #505050}
+a.prev_post,i.prev_post:hover{color: #505050}
