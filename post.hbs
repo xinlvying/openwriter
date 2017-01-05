@@ -53,21 +53,18 @@
 	</div>
 
 	<div>
-	      {{#prev_post}}
-	        <a rel="prev" href="{{url}}">← {{title}}</a>
-	      {{/prev_post}}
 
-	      {{#next_post}}
-	        <a rel="next" href="{{url}}">{{title}} →</a>
-	      {{/next_post}}
+		{{#next_post}}
+			<a rel="next" href="{{url}}"><i class="fa fa-backward" aria-hidden="true"></i>{{title}} →</a>
+		{{/next_post}}
+
+	  {{#prev_post}}
+			<a class="fa-2x" rel="prev" href="{{url}}">{{title}}<i class="fa fa-forward" aria-hidden="true"></i></a>
+		{{/prev_post}}
+
 	</div>
 	{{> comment}}
-	<!-- {{#prev_post}}
-	<div class="more-post">
-		    {{> excerpt}}
-	</div>
-	{{else}}
-	{{/prev_post}} -->
+
 
 
 </main>
