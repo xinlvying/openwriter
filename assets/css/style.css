@@ -64,8 +64,8 @@ h2.post_links{font-family: monospace;color: #9c9c9c;}
 
   .regular nav{font-size: 1.2rem;}
 
-  #homepage-hero .btn, #homepage-hero input[type="submit"], #homepage-hero .homepage-links li a, .homepage-links li #homepage-hero a
-  {margin: 2rem 0 2rem 0;}
+  /*#homepage-hero .btn, #homepage-hero input[type="submit"], #homepage-hero .homepage-links li a, .homepage-links li #homepage-hero a
+  {margin: 2rem 0 2rem 0;}*/
 
 }
 
