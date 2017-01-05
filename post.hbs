@@ -55,17 +55,15 @@
 	<div>
 
 		{{#next_post}}
-			<a rel="next" href="{{url}}"><i class="fa fa-backward" aria-hidden="true"></i>{{title}} →</a>
+			<a class="next_post" rel="next" href="{{url}}"><i class="fa fa-backward" aria-hidden="true"></i> {{title}}</a>
 		{{/next_post}}
 
 	  {{#prev_post}}
-			<a class="fa-2x" rel="prev" href="{{url}}">{{title}}<i class="fa fa-forward" aria-hidden="true"></i></a>
+			<a class="prev_post" rel="prev" href="{{url}}">{{title}} <i class="fa fa-forward" aria-hidden="true"></i></a>
 		{{/prev_post}}
 
 	</div>
 	{{> comment}}
-
-
 
 </main>
 {{/post}}
