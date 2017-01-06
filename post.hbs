@@ -30,7 +30,7 @@
 <main>
 	<div class="post-content">{{content}}</div>
 	{{> backtotop}}
-	<div class="post-footer">
+	<!-- <div class="post-footer">
 
 		<div class="share">
 			<a class="icon-twitter" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
@@ -46,10 +46,10 @@
 
 
 
-	</div>
+	</div> -->
 
-	<div>
-		<h2 class="post_links">More posts</h2>
+	<div class="post_links">
+		<h2>More posts</h2>
 		{{#next_post}}
 			<a class="next_post" rel="next" href="{{url}}"><i class="fa fa-backward" aria-hidden="true"></i> {{title}}</a>
 		{{/next_post}}
@@ -60,6 +60,8 @@
 
 </div>
 
+	{{> tags_column}}
+	
 	{{> comment}}
 
 </main>
