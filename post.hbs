@@ -29,7 +29,6 @@
 
 <main>
 	<div class="post-content">{{content}}</div>
-	{{> gotop}}
 	<!-- <div class="post-footer">
 
 		<div class="share">
@@ -60,9 +59,9 @@
 
 </div>
 
-	{{tags_column}}
+	{{> tags_column}}
 
 	{{> comment}}
-
+	<div id="gotop" style="background: url('{{asset "images/cover.jpg"}}') no-repeat;"></div>
 </main>
 {{/post}}
