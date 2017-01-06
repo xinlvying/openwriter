@@ -1,6 +1,6 @@
 {{!< default}}
 
-<header class="regular blogrollpage" 
+<header class="regular blogrollpage"
 	{{#if @blog.cover}}
 	style="background-image: url({{@blog.cover}});"
 	{{else}}
@@ -25,6 +25,8 @@
 	{{#foreach posts}}
 		{{> excerpt}}
 	{{/foreach}}
+	
+	{{tag_cloud limit="all"}}
 
 	{{pagination}}
 </main>
