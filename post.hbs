@@ -47,15 +47,14 @@
 
 
 	</div> -->
-	<hr />
-	<div>
-		<h2 class="post_links">More posts</h2>
+
+	<div class="post_links">
 		{{#next_post}}
 			<a class="next_post" rel="next" href="{{url}}"><i class="fa fa-backward" aria-hidden="true"></i> {{title}}</a>
 		{{/next_post}}
 
 	  {{#prev_post}}
-			<a class="prev_post" rel="prev" href="{{url}}">{{title}} <i class="fa fa-forward" aria-hidden="true"></i></a>
+			<a class="prev_post" rel="prev" href="{{url}}"><i class="fa fa-forward" aria-hidden="true"></i> {{title}}</a>
 		{{/prev_post}}
 
 </div>

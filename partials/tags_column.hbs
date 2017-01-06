@@ -1,5 +1,7 @@
-<hr />
 <div class="tags_column">
   <h2 class="tags_column">标签</h2>
-  <i class="fa fa-tags" aria-hidden="true">: {{tags}}</i>
+  {{#foreach tags}}
+  <i class="fa fa-tags" aria-hidden="true">
+  <li><a href="{{url absolute="true"}}">{{tags}}</a></li>
+  {{/foreach}}
 </div>
