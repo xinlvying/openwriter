@@ -24,8 +24,8 @@ a.next_post,i.next_post{color: #9e9e9e;transition: color 1s;display: block;;}
 a.prev_post,i.prev_post{color: #9e9e9e;transition: color 1s;display: block;;}
 a.next_post:hover,i.next_post:hover,a.next_post:focus,i.next_post:focus{color: #8BC34A;}
 a.prev_post:hover,i.prev_post:hover,a.next_post:focus,i.next_post:focus{color: #8BC34A;}
-div.post_links{color: #9c9c9c;border-top: 1px solid #e1e5e7;border-bottom: 1px solid #e1e5e7;padding: 8px 0;display: block;margin-top: 4rem;margin-bottom: 2rem;}
-.tags_column .comments .post_links{margin: 4rem auto 2rem auto;max-width: 960px;}
+div.post_links{color: #9c9c9c;border-top: 1px solid #e1e5e7;border-bottom: 1px solid #e1e5e7;padding: 8px 0;display: block;}
+div.tags_column,div.comments,div.post_links{margin: 4rem auto 2rem auto;max-width: 960px;}
 /** iPhone **/
 @media only screen and (min-width: 320px) and (max-width: 424px) {
   h1.blog-title {font-size: 5.9rem;font-family: "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;}
