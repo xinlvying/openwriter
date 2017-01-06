@@ -60,23 +60,6 @@ div.tags_column,div.comments,div.post_links{margin: 4rem auto 2rem auto;max-widt
 
 }
 
-/*@media only screen and (min-width: 658px) and (max-width: 877px){
-  .btn, input[type="submit"], .homepage-links li a {
-    width: 10rem;
-    margin: 1rem 0;
-    padding: 0.4rem;
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: cursive;
-    border: 1px solid #eee;
-    border-radius: 15px;
-    display: inline-block;
-    transition: background-color 0.6s, color 0.6s;
-}
-#homepage-hero .btn, #homepage-hero input[type="submit"], #homepage-hero .homepage-links li a, .homepage-links li #homepage-hero a {
-    margin: 0 auto;
-}
-}*/
 /** iPad **/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   h1.blog-title {font-size: 10rem;font-family: "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;}
