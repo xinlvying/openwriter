@@ -2,11 +2,9 @@
   <h2 class="tags_column">全部标签</h2>
   <!-- {{tag_cloud limit="all"}} -->
   <ul class="tags_column">
-    {{#foreach posts}}
-    {{#if tags}}
+    {{#foreach tags}}
     <i class="fa fa-tags tags_column" aria-hidden="true"></i>
     <a href="{{url}}" class="tags_column">{{name}}<span class="post-count">{{post_count}}</span></a>
-    {{/if}}
     {{/foreach}}
 </ul>
 </div>
