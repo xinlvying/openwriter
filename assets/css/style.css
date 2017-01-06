@@ -7,9 +7,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 i.excerpt_tags:hover,a.excerpt_tags:hover,i.excerpt_tags:focus,a.excerpt_tags:focus{color:#8BC34A;}
 
 .tags_column a{color:#777;background-color: #eee;font-family: monospace;transition: background-color 1s;margin: 0.5rem;padding: 2px 6px;line-height: 2.5rem;}
-.tags_column i{color: #9e9e9e;transition: background-color 1s;}
+.tags_column i{color: #9e9e9e;transition: color 1s;}
 h2.tags_column{font-family: "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;;color: #9c9c9c;}
-i.tags_column:hover,a.tags_column:hover,i.tags_column:focus,a.tags_column:focus{background-color: #8BC34A;}
+i.tags_column:hover,i.tags_column:focus{color: #8BC34A;}
+a.tags_column:hover,a.tags_column:focus{background-color: #8BC34A;}
 
 .post_tags a{color:#fafafa;font-family: monospace;transition: color 1s;}
 .post_tags i{color: #fafafa;transition: color 1s;margin: 2rem;}
