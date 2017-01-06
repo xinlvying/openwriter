@@ -1,10 +1,9 @@
 <div class="tags_column">
   <h2 class="tags_column">标签</h2>
-  {{#foreach posts}}
-  <ul>
-    {{#if tags}}
-        <li>{{name}}</li>
-    {{/if}}
-  </ul>
-  {{/foreach}}
+  {{tag_cloud limit="all"}}
+  <!-- <ul class="tag-cloud">  
+    {{#foreach tags}}
+    <a href="{{url}}" class="tag-item">{{name}}<span class="post-count">{{post_count}}</span></a>
+    {{/foreach}}
+</ul>  -->
 </div>
